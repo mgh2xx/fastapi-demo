@@ -44,7 +44,7 @@ This template contains a variety of methods and endpoints:
 
 ### `http://127.0.0.1:8000/add/7/3`
 
-Adds two integers taken as URL path parameters
+Adds two integers taken as URL path parameters:
 ```
 {
   "sum": 10
