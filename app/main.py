@@ -27,3 +27,7 @@ def square(e: int):
 @app.get("/subtract/{f}/{g}")
 def subtract(f: int, g: int):
     return {"difference": f-g}
+
+@app.get("/diff_squares/{h}/{i}")
+def diff_squares(h :int, i: int):
+    return {"difference of squares": (h**2) - (i**2)}
